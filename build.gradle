@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    test {
+        groovy {
+            srcDirs = ['src/test/groovy']
+        }
+    }
+}
+
+dependencies {
+    testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+}
+
