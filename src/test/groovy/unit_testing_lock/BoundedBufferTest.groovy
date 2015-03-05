@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Lock
 import unit_testing_lock.BoundedBuffer
 
 /**
- * @author Remus Amalinei http://remus-amalinei.blogspot.com
+ * @author Remus Amalinei
  */
 class BoundedBufferTest extends Specification {
 

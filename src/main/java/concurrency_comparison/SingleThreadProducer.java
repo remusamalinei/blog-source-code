@@ -1,3 +1,5 @@
+package concurrency_comparison;
+
 import java.util.Map;
 import java.util.Random;
 

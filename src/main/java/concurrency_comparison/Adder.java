@@ -1,7 +1,9 @@
+package concurrency_comparison;
+
 import java.util.Map;
 
 /**
- * @author Remus Amalinei http://remus-amalinei.blogspot.com
+ * @author Remus Amalinei
  */
 public interface Adder {
 

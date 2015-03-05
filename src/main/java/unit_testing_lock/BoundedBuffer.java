@@ -7,7 +7,7 @@ import java.util.concurrent.locks.Lock;
  * Based on the code example presented in the JDK API documentation for {@link Condition}.
  *
  * @author JDK API Documentation (original author)
- * @author Remus Amalinei http://remus-amalinei.blogspot.com
+ * @author Remus Amalinei
  */
 public class BoundedBuffer {
 
