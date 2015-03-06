@@ -1,7 +1,5 @@
-package thread_states_trotter;
-
 /**
- * @author Remus Amalinei http://remus-amalinei.blogspot.com
+ * @author Remus Amalinei
  */
 public class ThreadStatesTrotter {
 

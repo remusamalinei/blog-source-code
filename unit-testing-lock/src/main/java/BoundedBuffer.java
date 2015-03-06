@@ -1,5 +1,3 @@
-package unit_testing_lock;
-
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 

@@ -1,11 +1,7 @@
-package unit_testing_lock
-
-import spock.lang.Specification
-
 import java.util.concurrent.locks.Condition
 import java.util.concurrent.locks.Lock
 
-import unit_testing_lock.BoundedBuffer
+import spock.lang.Specification
 
 /**
  * @author Remus Amalinei

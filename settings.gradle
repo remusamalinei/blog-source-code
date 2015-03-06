@@ -1,0 +1,3 @@
+include 'unit-testing-lock',
+        'concurrency-comparison',
+        'thread-state-trotter'

@@ -1,21 +1,30 @@
-apply plugin: 'java'
-apply plugin: 'groovy'
+subprojects {
 
-sourceCompatibility = 1.8
+    apply plugin: 'java'
+    apply plugin: 'groovy'
 
-repositories {
-    mavenCentral()
-}
+    sourceCompatibility = 1.8
 
-sourceSets {
-    test {
-        groovy {
-            srcDirs = ['src/test/groovy']
+    repositories {
+        mavenCentral()
+    }
+
+    sourceSets {
+        test {
+            groovy {
+                srcDirs = ['src/test/groovy']
+            }
+        }
+    }
+
+    dependencies {
+        testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+    }
+
+    tasks.withType(Test) {
+        testLogging {
+            events 'passed', 'skipped', 'failed'
+            exceptionFormat 'full'
         }
     }
 }
-
-dependencies {
-    testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
-}
-
