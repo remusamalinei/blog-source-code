@@ -8,6 +8,7 @@ import java.util.Map;
 public final class Constants {
 
     private Constants() {
+        throw new AssertionError("constants class, not intended to be instantiated");
     }
 
     public static final int WORD_TO_GENERATE_COUNT = 100_000_000;
