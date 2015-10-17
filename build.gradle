@@ -3,18 +3,8 @@ subprojects {
     apply plugin: 'java'
     apply plugin: 'groovy'
 
-    sourceCompatibility = 1.8
-
     repositories {
         mavenCentral()
-    }
-
-    sourceSets {
-        test {
-            groovy {
-                srcDirs = ['src/test/groovy']
-            }
-        }
     }
 
     dependencies {
@@ -25,6 +15,12 @@ subprojects {
         testLogging {
             events 'passed', 'skipped', 'failed'
             exceptionFormat 'full'
+        }
+
+        afterSuite { testDescriptor, testResult ->
+            if ( ! testDescriptor.parent) {
+                println "${testResult.resultType} (${testResult.testCount} tests, ${testResult.successfulTestCount} successful, ${testResult.failedTestCount} failed, ${testResult.skippedTestCount} skipped)"
+            }
         }
     }
 }
