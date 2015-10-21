@@ -12,7 +12,7 @@ import ra.concurrencycomparison.SharedMutabilityAdder;
 /**
  * @author Remus Amalinei
  */
-public class MultiThreadProducer {
+public class SharedMutabilityDriver {
 
     public static void main(String[] args) throws InterruptedException {
         int producerThreadCount = Integer.parseInt(args[0]);
