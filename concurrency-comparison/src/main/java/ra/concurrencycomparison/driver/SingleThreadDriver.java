@@ -10,7 +10,7 @@ import ra.concurrencycomparison.NotThreadSafeAdder;
 /**
  * @author Remus Amalinei
  */
-public class SingleThreadProducer {
+public class SingleThreadDriver {
 
     public static void main(String[] args) throws InterruptedException {
         Random random = new Random();
