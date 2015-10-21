@@ -19,6 +19,18 @@ public class DriverUtils {
         throw new AssertionError("utils class, not intended to be instantiated");
     }
 
+    public static void addInCurrentThread(Adder adder) throws InterruptedException {
+        Random random = new Random();
+
+        int mapSize = TEN_WORD_MAP.size();
+        for (int i = 0; i < WORD_TO_GENERATE_COUNT; i++) {
+            int randomKey = random.nextInt(mapSize);
+            String word = TEN_WORD_MAP.get(randomKey);
+
+            adder.add(word);
+        }
+    }
+
     public static void addConcurrently(Adder adder, int threadCount) throws InterruptedException {
         ExecutorService executorService = Executors.newFixedThreadPool(threadCount);
         CountDownLatch countDownLatch = new CountDownLatch(threadCount);
