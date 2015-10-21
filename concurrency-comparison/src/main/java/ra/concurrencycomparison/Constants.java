@@ -17,6 +17,8 @@ public final class Constants {
 
     public static final Map<Integer, String> TEN_WORD_MAP;
 
+    public static final String POISON_PILL = "poison*pill";
+
     static {
         Map<Integer, String> map = new HashMap<>();
         map.put(0, "a");
