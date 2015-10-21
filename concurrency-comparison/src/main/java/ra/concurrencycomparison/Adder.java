@@ -1,3 +1,5 @@
+package ra.concurrencycomparison;
+
 import java.util.Map;
 
 /**
