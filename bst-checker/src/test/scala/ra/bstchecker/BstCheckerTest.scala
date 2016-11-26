@@ -1,14 +1,11 @@
 package ra.bstchecker
 
-import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
 import org.scalatest.prop.TableDrivenPropertyChecks.{Table, forAll}
 import org.scalatest.{FlatSpec, Matchers}
 
 /**
  * @author Remus Amalinei
  */
-@RunWith(classOf[JUnitRunner])
 class BstCheckerTest extends FlatSpec with Matchers {
 
   "A binary tree" should "be considered BST" in {
