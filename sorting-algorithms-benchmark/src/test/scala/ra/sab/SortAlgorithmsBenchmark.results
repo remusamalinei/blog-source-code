@@ -1,0 +1,107 @@
+Insertion sort
+Parameters(0% initially sorted; size -> 1): 0.0091041015625
+Parameters(0% initially sorted; size -> 2): 0.0070560390624999966
+Parameters(0% initially sorted; size -> 4): 0.007738593750000002
+Parameters(0% initially sorted; size -> 8): 0.0067152109375
+Parameters(0% initially sorted; size -> 16): 0.006398054687499998
+Parameters(0% initially sorted; size -> 32): 0.006929250000000001
+Parameters(0% initially sorted; size -> 64): 0.0069051328125
+Parameters(0% initially sorted; size -> 128): 0.0094440859375
+Parameters(0% initially sorted; size -> 256): 0.010526062499999997
+Parameters(0% initially sorted; size -> 512): 0.0158179921875
+Parameters(0% initially sorted; size -> 1024): 0.035263218749999985
+Parameters(0% initially sorted; size -> 2048): 0.10433492187499999
+Parameters(0% initially sorted; size -> 4096): 0.3704574921875
+Parameters(0% initially sorted; size -> 8192): 1.221440890625
+Parameters(0% initially sorted; size -> 16384): 3.9609341874999995
+Parameters(0% initially sorted; size -> 32768): 15.663098476562503
+Parameters(0% initially sorted; size -> 65536): 62.70507801562501
+Parameters(0% initially sorted; size -> 131072): 250.58362967968753
+Parameters(0% initially sorted; size -> 262144): 1009.2329480703122
+
+Heapsort
+Parameters(0% initially sorted; size -> 1): 0.019204578125
+Parameters(0% initially sorted; size -> 2): 0.018897062500000006
+Parameters(0% initially sorted; size -> 4): 0.015318429687499998
+Parameters(0% initially sorted; size -> 8): 0.01815314843749999
+Parameters(0% initially sorted; size -> 16): 0.029305976562500002
+Parameters(0% initially sorted; size -> 32): 0.034939156250000006
+Parameters(0% initially sorted; size -> 64): 0.05708694531249999
+Parameters(0% initially sorted; size -> 128): 0.09343193750000008
+Parameters(0% initially sorted; size -> 256): 0.14263555468750003
+Parameters(0% initially sorted; size -> 512): 0.2496675859375
+Parameters(0% initially sorted; size -> 1024): 0.36760606249999994
+Parameters(0% initially sorted; size -> 2048): 0.5856647578124997
+Parameters(0% initially sorted; size -> 4096): 1.5457134062499998
+Parameters(0% initially sorted; size -> 8192): 2.9243452656250004
+Parameters(0% initially sorted; size -> 16384): 4.887765242187501
+Parameters(0% initially sorted; size -> 32768): 11.0248612265625
+Parameters(0% initially sorted; size -> 65536): 24.697816984375
+Parameters(0% initially sorted; size -> 131072): 57.14201345312498
+Parameters(0% initially sorted; size -> 262144): 173.2827045390625
+
+Scala sort
+Parameters(0% initially sorted; size -> 1): 0.012396500000000006
+Parameters(0% initially sorted; size -> 2): 0.017314593749999996
+Parameters(0% initially sorted; size -> 4): 0.014416476562499995
+Parameters(0% initially sorted; size -> 8): 0.016285320312500004
+Parameters(0% initially sorted; size -> 16): 0.01594610937499999
+Parameters(0% initially sorted; size -> 32): 0.030933695312499995
+Parameters(0% initially sorted; size -> 64): 0.06163389843749999
+Parameters(0% initially sorted; size -> 128): 0.060925210937499995
+Parameters(0% initially sorted; size -> 256): 0.07895439843750009
+Parameters(0% initially sorted; size -> 512): 0.1270808359375
+Parameters(0% initially sorted; size -> 1024): 0.2319428671874999
+Parameters(0% initially sorted; size -> 2048): 0.5587898046875003
+Parameters(0% initially sorted; size -> 4096): 1.1281337421875
+Parameters(0% initially sorted; size -> 8192): 2.139357843749999
+Parameters(0% initially sorted; size -> 16384): 4.0123581171875
+Parameters(0% initially sorted; size -> 32768): 8.774435945312504
+Parameters(0% initially sorted; size -> 65536): 18.829186195312488
+Parameters(0% initially sorted; size -> 131072): 42.308341054687475
+Parameters(0% initially sorted; size -> 262144): 99.58780101562496
+
+Insertion sort
+Parameters(size = 200000; initially sorted percentage -> 80): 158.9283593125
+Parameters(size = 200000; initially sorted percentage -> 85): 119.86117521093743
+Parameters(size = 200000; initially sorted percentage -> 90): 80.98538516406252
+Parameters(size = 200000; initially sorted percentage -> 95): 41.68769552343748
+Parameters(size = 200000; initially sorted percentage -> 98): 17.392902328124997
+Parameters(size = 200000; initially sorted percentage -> 99): 9.4274294375
+Parameters(size = 200000; initially sorted percentage -> 100): 1.159797828125
+
+Heapsort
+Parameters(size = 200000; initially sorted percentage -> 0): 112.68391407812503
+Parameters(size = 200000; initially sorted percentage -> 1): 110.42361775000006
+Parameters(size = 200000; initially sorted percentage -> 2): 110.32922651562492
+Parameters(size = 200000; initially sorted percentage -> 4): 110.44323875781247
+Parameters(size = 200000; initially sorted percentage -> 8): 109.666024484375
+Parameters(size = 200000; initially sorted percentage -> 16): 106.24751683593752
+Parameters(size = 200000; initially sorted percentage -> 32): 98.3967853359375
+Parameters(size = 200000; initially sorted percentage -> 48): 90.62734577343753
+Parameters(size = 200000; initially sorted percentage -> 64): 82.26078307031253
+Parameters(size = 200000; initially sorted percentage -> 80): 73.13213791406247
+Parameters(size = 200000; initially sorted percentage -> 85): 70.53063057812501
+Parameters(size = 200000; initially sorted percentage -> 90): 67.17599065625
+Parameters(size = 200000; initially sorted percentage -> 95): 63.138521726562495
+Parameters(size = 200000; initially sorted percentage -> 98): 60.47313610937501
+Parameters(size = 200000; initially sorted percentage -> 99): 59.35944682812498
+Parameters(size = 200000; initially sorted percentage -> 100): 57.73684725000002
+
+Scala sort
+Parameters(size = 200000; initially sorted percentage -> 0): 81.62076923437496
+Parameters(size = 200000; initially sorted percentage -> 1): 74.3775328828125
+Parameters(size = 200000; initially sorted percentage -> 2): 74.582909296875
+Parameters(size = 200000; initially sorted percentage -> 4): 74.12607790624996
+Parameters(size = 200000; initially sorted percentage -> 8): 73.88495898437502
+Parameters(size = 200000; initially sorted percentage -> 16): 72.02462249999998
+Parameters(size = 200000; initially sorted percentage -> 32): 63.77606378125002
+Parameters(size = 200000; initially sorted percentage -> 48): 55.662334304687505
+Parameters(size = 200000; initially sorted percentage -> 64): 48.32791191406251
+Parameters(size = 200000; initially sorted percentage -> 80): 35.820909218749996
+Parameters(size = 200000; initially sorted percentage -> 85): 28.75994289843749
+Parameters(size = 200000; initially sorted percentage -> 90): 23.361431914062507
+Parameters(size = 200000; initially sorted percentage -> 95): 15.5338554296875
+Parameters(size = 200000; initially sorted percentage -> 98): 9.595997367187502
+Parameters(size = 200000; initially sorted percentage -> 99): 7.376128992187502
+Parameters(size = 200000; initially sorted percentage -> 100): 4.319233914062501

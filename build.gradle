@@ -1,0 +1,29 @@
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'groovy'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'org.codehaus.groovy:groovy-all:2.3.7'
+
+        testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+        testCompile 'junit:junit:4.12'
+    }
+
+    tasks.withType(Test) {
+        testLogging {
+            events 'passed', 'skipped', 'failed'
+            exceptionFormat 'full'
+        }
+
+        afterSuite { testDescriptor, testResult ->
+            if ( ! testDescriptor.parent) {
+                println "${testResult.resultType} (${testResult.testCount} tests, ${testResult.successfulTestCount} successful, ${testResult.failedTestCount} failed, ${testResult.skippedTestCount} skipped)"
+            }
+        }
+    }
+}

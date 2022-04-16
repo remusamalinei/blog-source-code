@@ -1,0 +1,4 @@
+include 'lock-unit-test',
+        'concurrency-comparison',
+        'thread-state-trotter',
+        'misunderstood-countdownlatch'
